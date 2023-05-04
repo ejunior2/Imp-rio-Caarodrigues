@@ -1,0 +1,264 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * { 
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  
+  body {
+    padding: 10px, 50px, 50px, 50px;
+    background-color: #1b1b1c;
+    margin: 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #logoImg {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  #logoImg img {
+    width: 200px;
+    height: 181px;
+  }
+
+  
+  #logo {
+    font-family: Cambria;
+    font-size: 20px;
+    user-select: none;
+    justify-content: center;
+    margin-top: 3%;
+    margin-right: 36%;
+    margin-left: 36%;
+  }
+
+  #titleA {
+    font-family: Amiri;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: -95px;
+  }
+  
+  #titleB {
+    color: #a80a1f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 8px;
+  }
+  
+  .menu {
+    display: flex;  /*Deixa flexível e deixa as divs uma do lado da outra.*/
+    background-color: black;
+    margin-top: 9px;
+    font-size: 18px;
+    justify-content: center;
+    margin-right: 7%;
+    margin-left: 7%;
+    box-shadow: 0 5px 10px red;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-weight: bold;
+    font-family: Bahnschrift Light Condensed;
+  }
+  
+  a.inicio:hover {
+    background-color: #a80a1f;
+    color: white;
+  }
+  
+  a.nike:hover {
+    background-color: #a80a1f;
+    background-image: url("imagem/logoNike.png");
+    background-position: center;
+    background-size: cover;
+    color: rgba(0,0,0,0);  
+  }
+  
+  a.adidas:hover {
+    background-color: #a80a1f;
+    background-image: url("imagem/logoAdidas.png");
+    background-position: center;
+    background-size: cover;
+    color: rgba(0,0,0,0);
+    }
+  
+  a.champion:hover {
+    background-color: #a80a1f;
+    background-image: url("imagem/logoChampion.png");
+    background-position: center;
+    background-size: cover;
+    color: rgba(0,0,0,0);
+    }
+  
+  a.vans:hover {
+    background-color: #a80a1f;
+    background-image: url("imagem/logoVans.png");
+    background-position: center;
+    background-size: cover;
+    color: rgba(0,0,0,0);
+    }
+  
+  a.high:hover {
+    background-color: #a80a1f;
+    background-image: url("imagem/logoHigh.png");
+    background-position: center;
+    background-size: cover;
+    color: rgba(0,0,0,0);
+    }
+  
+  main > a h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria;
+    margin-top: 5%;
+    margin-left: 42%;
+    margin-right: 42%;
+    text-decoration: none;
+  }
+  main > a h2:hover {
+    opacity: .5;
+    text-decoration: none;
+  }
+  
+  .camisetas {
+    background-color: black;
+    padding: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;  
+    padding-bottom: 3%;
+  }
+  .camisetas img {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 22%;
+    height: 22%;
+    transition: height .4s;
+    transition: width .4s;
+  }
+  .camisetas img:hover {
+    height: 23%;
+    width: 23%;
+  }
+
+  .camisetasText {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    bottom: 55px;
+  }
+  .camisetasText p {
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 3%;
+    height: 3%;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: Bahnschrift;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+  } 
+
+  .camisetasText p:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .moletons {
+    background-color: black;
+    padding: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  .moletons img {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 22%;
+    height: 22%;
+    transition: height .4s;
+    transition: width .4s;
+  }
+  .moletons img:hover {
+    height: 23%;
+    width: 23%;
+  }
+
+  #rede {
+    background-color: black;
+    margin-top: 10%;
+    padding-bottom: 2%;
+  }
+
+  #logoFooter {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  #logoFooter img {
+      width: 200px;
+      height: 181px;
+      margin-right: 75%;
+    }
+  
+  #rede {
+    font-size: 20px;
+    user-select: none;
+  }
+
+  #titleFooter1 {
+    font-family: Amiri;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: -50px;
+    margin-right: 75%;
+  }
+
+  #titleFooter2 {
+    font-family: Cambria;
+    color: #a80a1f;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 8px; 
+    margin-right: 75%;
+  }
+
+  a > p {
+    color: red;
+    text-align: center;
+    margin-right: 75%;
+    font-family: Cambria;
+    font-size: 25px;
+  }
