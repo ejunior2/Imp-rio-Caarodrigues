@@ -140,6 +140,7 @@ html {
     display: flex;
     justify-content: center;
     padding-top: 1%;
+    padding-bottom: 3%;
   }
   .produtosN1 img {
     padding-left: 8px;
@@ -161,7 +162,8 @@ html {
     margin-left: 3%;
     display: flex;
     justify-content: center;
-    padding-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
   }
 
   .produtosN2 img {
@@ -184,7 +186,8 @@ html {
     margin-left: 3%;
     display: flex;
     justify-content: center;
-    padding-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
   }
 
   .produtosN3 img {
@@ -208,7 +211,8 @@ html {
     margin-left: 3%;
     display: flex;
     justify-content: center;
-    padding-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
   }
 
   .produtosN4 img {
